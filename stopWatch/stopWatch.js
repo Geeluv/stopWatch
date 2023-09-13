@@ -67,7 +67,6 @@ reset.addEventListener("click", () => {
     second.innerHTML = sec;
     minute.innerHTML = min;
     hour.innerHTML = hr;
-
 })
 
 stop.addEventListener("click", () => {

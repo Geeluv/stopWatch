@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(159, 255, 218);
 }
-.container{
+
+.container {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -20,7 +21,8 @@ body{
     background: linear-gradient(to bottom, rgb(159, 255, 218), rgb(8, 211, 150));
     border-radius: 5px;
 }
-.stopWatch-outline{
+
+.stopWatch-outline {
     display: flex;
     align-items: center;
     max-width: 300px;
@@ -28,40 +30,44 @@ body{
     margin-bottom: 20px;
 }
 
-.stopWatch-holder{
+.stopWatch-holder {
     display: flex;
     align-items: center;
     color: rgb(0, 71, 48);
 }
 
-.stopWatch-holder span{
+.stopWatch-holder span {
     padding: 5px;
 }
-.stopWatch-holder div{
+
+.stopWatch-holder div {
     display: flex;
     align-items: center;
     font-size: 30px
 }
 
-.button-container{
+.button-container {
     max-width: 300px;
     margin: 0 auto;
     display: flex;
     gap: 10px;
 }
 
-button{
+button {
     padding: 20px;
     background: none;
     cursor: pointer;
     border: 1px solid rgb(0, 71, 48);
+    transition: 0.35s;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(0, 71, 48);
     color: rgb(159, 255, 218);
+    transition: 0.35s;
 }
-button:focus{
+
+button:focus {
     background-color: rgb(0, 71, 48);
     color: rgb(159, 255, 218);
     box-shadow: 1px 1px 4px 0px rgb(255, 255, 255);
